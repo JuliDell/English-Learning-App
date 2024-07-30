@@ -116,7 +116,7 @@ def quiz_user(phrasal_verbs, limit=10):
         else:
             print(f"Wrong! The correct answer is '{verb['portuguese']}'.")
     
-     print(f"Your final score is: {score}/{len(questions)}")
+    print(f"Your final score is: {score}/{len(questions)}")
     print(f"Well done! You are improving your vocabulary, keep going!!!")
 
 def word():
