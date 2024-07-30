@@ -102,3 +102,9 @@ phrasal_verbs = [
     {"english": "fall off", "portuguese": "cair de"},
     {"english": "fall over", "portuguese": "tropeçar e cair"},
 ]
+
+def word():
+    print("Welcome to the English Learning App - Most Common Phrasal Verbs")
+    input("Press enter to start")
+    quiz_user(phrasal_verbs)
+
