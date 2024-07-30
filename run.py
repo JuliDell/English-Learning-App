@@ -108,3 +108,6 @@ def word():
     input("Press enter to start")
     quiz_user(phrasal_verbs)
 
+# Call the function to start the app
+word()
+
