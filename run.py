@@ -1,6 +1,7 @@
 import random
+
 phrasal_verbs = [
-   {"english": "ask out", "portuguese": "convidar para sair"},
+    {"english": "ask out", "portuguese": "convidar para sair"},
     {"english": "bring up", "portuguese": "mencionar"},
     {"english": "call back", "portuguese": "ligar de volta"},
     {"english": "call off", "portuguese": "cancelar"},
@@ -128,8 +129,14 @@ def main():
         quiz_user(phrasal_verbs)
         
         # Ask user if they want to retake the quiz
-        retry = input("Do you want to take the quiz again? (yes/no): ").strip().lower()
-        if retry != 'yes':
+        while True:
+            retry = input("Do you want to take the quiz again? (yes/no): ").strip().lower()
+            if retry == 'yes' or retry == 'no':
+                break
+            else:
+                print("Please write yes or no")
+        
+        if retry == 'no':
             break
     
     print("Thank you for playing! Have a great day!")
