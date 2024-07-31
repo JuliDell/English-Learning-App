@@ -120,7 +120,7 @@ def quiz_user(phrasal_verbs, limit=10):
     print(f"Your final score is: {score}/{len(questions)}")
     print("Well done! You are improving your vocabulary, keep going!!!")
 
-def word():
+def main():
     print("Welcome to the English Learning App - Most Common Phrasal Verbs")
     
     while True:
@@ -135,4 +135,4 @@ def word():
     print("Thank you for playing! Have a great day!")
 
 # Call the function to start the app
-word()
+main()
