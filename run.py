@@ -117,11 +117,12 @@ def quiz_user(phrasal_verbs, limit=10):
             score += 1
         else:
             print(f"Wrong! The correct answer is '{verb['portuguese']}'.")
+            print("Don't worry, keep practicing and you'll get better!")
 
     print(f"Your final score is: {score}/{len(questions)}")
     print("Well done! You are improving your vocabulary, keep going!!!")
 
-def main():
+def word():
     print("Welcome to the English Learning App - Most Common Phrasal Verbs")
     
     while True:
@@ -129,17 +130,13 @@ def main():
         quiz_user(phrasal_verbs)
         
         # Ask user if they want to retake the quiz
-        while True:
-            retry = input("Do you want to take the quiz again? (yes/no): ").strip().lower()
-            if retry == 'yes' or retry == 'no':
-                break
-            else:
-                print("Please write yes or no")
-        
-        if retry == 'no':
+        retry = input("Do you want to take the quiz again? (yes/no): ").strip().lower()
+        while retry not in ['yes', 'no']:
+            retry = input("Please write 'yes' or 'no': ").strip().lower()
+        if retry != 'yes':
             break
     
     print("Thank you for playing! Have a great day!")
 
 # Call the function to start the app
-main()
+word()
