@@ -19,8 +19,13 @@ Our goal is to help you master the most common phrasal verbs in English by provi
 4. View Your Score: At the end of the quiz, see how well you did.
 5. Retake the Quiz: Choose to retake the quiz if you want more practice.
 
-## Example
+## Examples
 
+## Testing
+
+## Validator Testing
+
+## Bugs
 
 ## Deployment
 
