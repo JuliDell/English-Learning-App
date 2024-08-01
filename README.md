@@ -1,32 +1,29 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 style="color:blue;">English Learning App - Most Common Phrasal Verbs</h1>
 
-Welcome,
+Welcome to the English Learning App! 
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **May 14, 2024**
+Our goal is to help you master the most common phrasal verbs in English by providing a fun and interactive quiz. Whether you're a beginner or looking to refresh your memory, this app is designed to boost your vocabulary skills effectively.
 
-## Reminders
+## Features
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
+- Interactive Quiz: Engage with a random selection of phrasal verbs each time you take the quiz.
+- Immediate Feedback: Know right away if your answer is correct and see the correct answer if you make a mistake.
+- Unlimited Retakes: Practice as many times as you like to improve your knowledge and confidence.
+- Score Tracking: Keep track of your progress with a score at the end of each quiz.
 
-## Creating the Heroku app
+## How to Use
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+1. Start the Quiz: Press enter to begin.
+2. Answer Questions: Translate the given phrasal verb from English to Portuguese.
+3. Receive Feedback: Get immediate feedback on your answers.
+4. View Your Score: At the end of the quiz, see how well you did.
+5. Retake the Quiz: Choose to retake the quiz if you want more practice.
 
-1. `heroku/python`
-2. `heroku/nodejs`
+## Example
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+## Deployment
 
-Connect your GitHub repository and deploy as normal.
 
-## Constraints
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
----
-
-Happy coding!
+Happy learning!
