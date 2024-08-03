@@ -111,7 +111,7 @@ def quiz_user(phrasal_verbs, limit=10):
 
     for verb in questions:
         print(f"How do you say '{verb['english']}' in Portuguese?")
-        user_answer = input("Your answer: ").strip().lower()
+        user_answer = input("Your answer:\n").strip().lower()
         if user_answer == verb['portuguese'].lower():
             print("Correct!")
             score += 1
@@ -126,13 +126,13 @@ def main():
     print("Welcome to the English Learning App - Most Common Phrasal Verbs")
     
     while True:
-        input("Press enter to start the quiz")
+        input("Press enter to start the quiz\n")
         quiz_user(phrasal_verbs)
         
         # Ask user if they want to retake the quiz
-        retry = input("Do you want to take the quiz again? (yes/no): ").strip().lower()
+        retry = input("Do you want to take the quiz again? (yes/no):\n").strip().lower()
         while retry not in ['yes', 'no']:
-            retry = input("Please write 'yes' or 'no': ").strip().lower()
+            retry = input("Please write 'yes' or 'no':\n ").strip().lower()
         if retry != 'yes':
             break
     
