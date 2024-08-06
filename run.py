@@ -101,12 +101,10 @@ phrasal_verbs = [
     {"english": "fall over", "portuguese": "tropeçar e cair"},
 ]
 
+
 def quiz_user(phrasal_verbs, limit=10):
     random.shuffle(phrasal_verbs)
-    
-    # Limit the number of questions to 'limit' or the length of the list if smaller
     questions = phrasal_verbs[:limit]
-    
     score = 0
 
     for verb in questions:
@@ -122,21 +120,20 @@ def quiz_user(phrasal_verbs, limit=10):
     print(f"Your final score is: {score}/{len(questions)}")
     print("Well done! You are improving your vocabulary, keep going!!!")
 
+
 def main():
     print("Welcome to the English Learning App - Most Common Phrasal Verbs")
-    
     while True:
         input("Press enter to start the quiz\n")
         quiz_user(phrasal_verbs)
-        
         # Ask user if they want to retake the quiz
-        retry = input("Do you want to take the quiz again? (yes/no):\n").strip().lower()
+        retry = input("Do you want to try again? (yes/no):\n").strip().lower()
         while retry not in ['yes', 'no']:
             retry = input("Please write 'yes' or 'no':\n ").strip().lower()
         if retry != 'yes':
             break
-    
     print("Thank you for playing! Have a great day!")
+
 
 # Call the function to start the app
 main()
