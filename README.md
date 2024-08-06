@@ -21,14 +21,28 @@ Our goal is to help you master the most common phrasal verbs in English by provi
 
 ## Examples
 
+![Responsiviness](documentation/responsive.png)
+
 ## Testing
+
+- Tested invalid inputs
+- Tested the HEROKU link on Chrome 
+
 
 ## Validator Testing
 
+PEP8
+- Errors returned from PEP8 validation. The erros were corrected.
+
+
+![Errors](documentation/pep8_testing.png)
+
 ## Bugs
 
-## Deployment
+No Bugs were detected
 
+## Deployment
+This project was deployed using Code Institute mock terminal for HEROKU.
 
 
 Happy learning!
