@@ -84,7 +84,23 @@ This project was deployed using Code Institute mock terminal for HEROKU.
 
 ## Technologies Used
 
-•	Python
+The primary language employed in this project is Python. 
+
+Frameworks, Libraries & Programs Used:
+
+•	Random - Used to randomly select the word for the game.
+
+•	GitPod - IDE used to create the game.
+
+•	Github - Used for file storage, version control, and hosting page assets.
+
+•	Code Institute Python Essentials Template - Served as the foundational structure for this project.
+
+•	Heroku - Used to deploy the project.
+
+•	Favicon.io - To create favicon.
+
+•	Chat-GPT - To find the most comom english phrasal verbs and their translation to portuguese.
 
 ## Acknowledgments
 
