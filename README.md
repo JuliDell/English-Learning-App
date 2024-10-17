@@ -43,6 +43,8 @@ I aim to share my progress and achievements with friends and colleagues, promoti
 
 ## Flow Chart
 
+![Flowchart](documentation/Flowchart.png)
+
 ## Features
 ## How to Use
 1. Start the Quiz: Press enter to begin.
