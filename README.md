@@ -78,6 +78,47 @@ No Bugs were detected
 ## Deployment
 This project was deployed using Code Institute mock terminal for HEROKU.
 
+Deployment process
+1) GitHub Setup
+
+Log in to Github
+
+Access the repository for deployment. 
+
+Add a new line character at the  end of the text inside the input method.
+
+To create a list of requirements, the following command was used in the terminal 'Pip3 freeze > requirements.txt'.
+
+2) Heroku Setup
+
+Log in to Heroku.
+
+Click the "New" button in the top right corner.
+
+Select "Create New App."
+
+Provide a name for the app (english-learning-app) and choose a region (Europe).
+
+Click the "Create app" button.
+
+Navigate to the "Deploy" section in the navigation bar. Under "Deployment Method," choose GitHub/Connect to GitHub.
+
+In the "Connect to GitHub" section, enter the repository name and click the search button.
+
+Once the repository link appears in the search results, click the "Connect" button. 
+
+Go to Settings in the nav bar and select "Add Buildpacks."
+
+Add Python and save. Then add Node.js, ensuring that Python is listed first. Buildpacks
+
+Once the Config Vars are set, click Deploy.
+
+Choose Automatic deployment. Automatic deployment updates the site automatically with your GitHub commits. Ensure that "Branch to deploy" is set to the main branch.
+
+Finally, click the "Deploy" button to make the website go live.
+
+[English Learning App](https://english-learning-app-d0710ebd4b97.herokuapp.com)
+
 ## Credits
 ## Content
 
