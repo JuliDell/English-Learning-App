@@ -50,10 +50,43 @@ I aim to share my progress and achievements with friends and colleagues, promoti
 1. Start the Quiz: Press enter to begin.
 2. Answer Questions: Translate the given phrasal verb from English to Portuguese.
 3. Receive Feedback: Get immediate feedback on your answers.
-4. View Your Score: At the end of the quiz, see how well you did.
-5. Retake the Quiz: Choose to retake the quiz if you want more practice.
+4. The program will repeat the questions 10 times
+5. View Your Score: At the end of the quiz, see how well you did.
+6. Retake the Quiz: Choose to retake the quiz if you want more practice.
 
-## Examples
+Wecome message
+
+![Wecome message](documentation/wecome_message.png)
+
+First Question
+
+![First Question](documentation/first_question.png)
+
+Wrong Answer Message
+
+![Wrong Answer](documentation/first_answer.png)
+
+Correct Answer Message
+
+![Correct Answer](documentation/correct_answer.png)
+
+Final Score and question to play the game again
+
+![Continue question](documentation/continue_question.png)
+
+No, I don´t want to continue playing the game
+
+![Continue no](documentation/continue-no.png)
+
+Yes, I want to continue playing the game
+
+![Continue yes](documentation/continue_yes.png)
+
+Answer different to Yes/No
+
+![Wrong answer](documentation/wrong_answer.png)
+
+## Responsiviness
 
 ![Responsiviness](documentation/responsive.png)
 
