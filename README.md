@@ -105,10 +105,8 @@ Invalid Input for Retry: The app was tested with incorrect inputs in the retry p
 Tester answered all questions correctly in one quiz session to check if the score displayed 10/10. Similarly, a few questions were intentionally answered incorrectly to verify that the score accurately reflected the correct and incorrect answers.
 
 Incorrect answers were tested to ensure that the app provided the correct answer and encouraged the user to keep practicing.
-Randomization:
 
 The quiz was run multiple times to verify that a variety of phrasal verbs were presented, confirming that the random.shuffle() function worked as intended and minimized repeated questions within the same session.
-End-of-Quiz:
 
 Tester confirmed that the app displayed a final message summarizing the score after each quiz session, which worked consistently regardless of the number of correct answers.
 
@@ -151,7 +149,6 @@ The quiz selects verbs randomly but may repeat verbs if restarted. Adding a feat
 - User Flow:
 
 The app will continue looping until the user types "no" in the retry prompt. It only accepts "yes" or "no," which might be confusing if the user inputs anything else. A case-insensitive comparison with better handling for typos could improve usability.
-Language 
 
 -Accents and Special Characters:
 
