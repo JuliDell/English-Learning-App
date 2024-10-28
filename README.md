@@ -150,7 +150,7 @@ The quiz selects verbs randomly but may repeat verbs if restarted. Adding a feat
 
 The app will continue looping until the user types "no" in the retry prompt. It only accepts "yes" or "no," which might be confusing if the user inputs anything else. A case-insensitive comparison with better handling for typos could improve usability.
 
--Accents and Special Characters:
+- Accents and Special Characters:
 
 Currently, answers with missing or incorrect accents (e.g., "convidar para sair" without the accent on “sair”) will be marked wrong. Future versions might improve input handling to consider correct answers with or without accents.
 
