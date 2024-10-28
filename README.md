@@ -92,9 +92,27 @@ Answer different to Yes/No
 
 ## Testing
 
-- Tested invalid inputs
-- Tested the HEROKU link on Chrome 
+1) Tested the HEROKU link on Chrome.
 
+2) Manual testing- overview of the testing process and outcomes:
+
+Quiz Flow: The quiz started when users pressed "Enter" as prompted. It presented 10 random phrasal verbs, and answers were checked correctly for accuracy.
+
+Retry Feature: After completing a quiz, selecting “yes” restarted the quiz with a new set of questions, while selecting "no" allowed the program to exit smoothly.
+
+Invalid Input for Retry: The app was tested with incorrect inputs in the retry prompt (e.g., "yep" or "nah"), and it successfully re-prompted users to enter a valid response ("yes" or "no").
+
+Tester answered all questions correctly in one quiz session to check if the score displayed 10/10. Similarly, a few questions were intentionally answered incorrectly to verify that the score accurately reflected the correct and incorrect answers.
+
+Incorrect answers were tested to ensure that the app provided the correct answer and encouraged the user to keep practicing.
+Randomization:
+
+The quiz was run multiple times to verify that a variety of phrasal verbs were presented, confirming that the random.shuffle() function worked as intended and minimized repeated questions within the same session.
+End-of-Quiz:
+
+Tester confirmed that the app displayed a final message summarizing the score after each quiz session, which worked consistently regardless of the number of correct answers.
+
+These tests helped ensure a smooth user experience, verified functionality, and resolved any issues that arose during development.
 
 ## Validator Testing
 
@@ -106,7 +124,39 @@ PEP8
 
 ## Bugs
 
-No Bugs were detected
+1) Solved Bugs
+
+- Accidental Repetition of Phrasal Verbs:
+
+Issue: The quiz sometimes repeated the same phrasal verbs within a single session, reducing variety and learning effectiveness.
+
+Solution: Implemented random.shuffle() to better randomize the list and limit the quiz to unique phrasal verbs per session.
+
+- Inconsistent Score Count:
+
+Issue: The score count sometimes displayed inaccurately when users restarted the quiz multiple times within the same session.
+
+Solution: Reset the score to zero at the beginning of each new quiz session to ensure accuracy.
+
+2) Unsolved bugs
+
+- Input Formatting
+
+Users must provide exact matches for answers. Any additional spaces, incorrect casing, or small typos (like accents) will result in an incorrect answer. A future improvement could include more flexible input validation.
+
+- Quiz Randomization:
+
+The quiz selects verbs randomly but may repeat verbs if restarted. Adding a feature to track verbs previously used in a session or across sessions could reduce repetition.
+
+- User Flow:
+
+The app will continue looping until the user types "no" in the retry prompt. It only accepts "yes" or "no," which might be confusing if the user inputs anything else. A case-insensitive comparison with better handling for typos could improve usability.
+Language 
+
+-Accents and Special Characters:
+
+Currently, answers with missing or incorrect accents (e.g., "convidar para sair" without the accent on “sair”) will be marked wrong. Future versions might improve input handling to consider correct answers with or without accents.
+
 
 ## Deployment
 This project was deployed using Code Institute mock terminal for HEROKU.
@@ -174,9 +224,7 @@ Frameworks, Libraries & Programs Used:
 
 •	Heroku - Used to deploy the project.
 
-•	Favicon.io - To create favicon.
-
-•	Chat-GPT - To find the most comom english phrasal verbs and their translation to portuguese.
+•	Chat-GPT - To find the most common english phrasal verbs and their translation to portuguese.
 
 ## Acknowledgments
 
